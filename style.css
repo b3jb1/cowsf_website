@@ -1,35 +1,22 @@
 body {
     background-color: black;
 }
-
-.about_us {
-	left: 50%;
-	margin-left: 300px;
-	position: fixed;
-	font-size: 20pt;
-}
-
-.projects {
-	left: 50%;
-	margin-left: 400px;
-	position: fixed;
-	font-size: 20pt;
-}
-
-.cow_head {
-    color: white;
-    text-align: center;
-    font-family: "JetBrains Mono";
-}
-
-.cow_body {
-    font-size: 13pt;
-}
-
-.linkClass {
+.csf {
 	color: white;
 	text-align: center;
+	font-size: 15pt;
 	font-family: "JetBrains Mono";
 }
 
+.about_us {
+	text-align: center;
+	font-size: 20pt;
+	font-family: "JetBrains Mono";
+}
+
+.projects {
+	text-align: center;
+	font-size: 20pt;
+	font-family: "JetBrains Mono";
+}
 
