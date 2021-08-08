@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+
+
+.projects {
+	color: white;
+	text-align: center;
+	font-size: 15pt;
+	font-family: "JetBrains Mono";
+}
