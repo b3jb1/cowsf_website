@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
 }
@@ -12,30 +18,62 @@ body {
 .authors {
     margin-top: 50px;
     text-align: center;
+    display: inline-flex;
     font-size: 20pt;
     font-family: "JetBrains Mono";
 }
 
-.authors a {
+
+.authors p {
+    font-family: "JetBrains Mono";
     padding: 15px;
     text-decoration: none;
-    color: red;
+    color: #9900ff;
     transition: 0.2s;
 }
 
-.authors a:hover {
-    font-size: 22pt;
+.mrpascal {
+    margin-left: 200px;
+}
+
+.mrpascal i {
+    margin-right: 350px;
+    font-size: 50px;
+}
+
+.mrpascal p {
+    margin-right: 350px;
+}
+
+.akisha i {
+    font-size: 50px;
+    margin-left: 350px;
+}
+
+.akisha p {
+    margin-left: 350px;
 }
 
 .back i {
     font-size: 48px;
-    margin-top: 500px;
-    margin-left: 900px;
-    color: red;
+    margin-top: 380px;
+    margin-left: 650px;
+    color: #9900ff;
     transition: 0.2s;
 }
 
 .back i:hover {
-   font-size: 55px;
+   font-size: 50px;
    cursor: pointer;
 }
+
+
+@media only screen and (max-width: 900px) {
+    .back i {
+        font-size: 48px;
+        margin-top: 380px;
+        margin-left: 380px;
+        color: red;
+        transition: 0.2s;
+    }
+  }
