@@ -9,6 +9,7 @@ body {
 }
 
 .cow_body {
+    color: white;
     font-size: 15pt;
     font-family: "JetBrains Mono";
 }
