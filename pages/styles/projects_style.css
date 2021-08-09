@@ -9,3 +9,14 @@ body {
 	font-size: 20pt;
 	font-family: "JetBrains Mono";
 }
+
+.back i {
+    font-size: 48px;
+    color: red;
+	transition: 0.2s;
+}
+
+.back i:hover {
+   font-size: 55px; 
+   cursor: pointer;
+}

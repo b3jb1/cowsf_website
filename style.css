@@ -12,16 +12,35 @@ body {
 	text-align: center;
 	font-size: 20pt;
 	font-family: "JetBrains Mono";
+	cursor: pointer;
+	transition: 0.2s;
 }
 
 .projects {
 	text-align: center;
 	font-size: 20pt;
 	font-family: "JetBrains Mono";
+	cursor: pointer;
+	transition: 0.2s;
 }
 
 .authors {
 	text-align: center;
 	font-size: 20pt;
 	font-family: "JetBrains Mono";
+	cursor: pointer;
+	transition: 0.2s;
+	
+}
+
+.about_us:hover {
+	font-size: 25pt;
+}
+
+.projects:hover {
+	font-size: 25pt;
+}
+
+.authors:hover {
+	font-size: 25pt;
 }

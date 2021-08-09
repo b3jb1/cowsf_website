@@ -14,3 +14,17 @@ body {
     font-family: "JetBrains Mono";
 }
 
+.cow_body p b {
+    color: red;
+}
+
+.back i {
+    font-size: 48px;
+    color: red;
+    transition: 0.2s;
+}
+
+.back i:hover {
+   font-size: 55px; 
+   cursor: pointer;
+}
